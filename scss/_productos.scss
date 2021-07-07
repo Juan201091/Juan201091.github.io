@@ -1,0 +1,48 @@
+/*Variables*/
+$back-color: #330000;
+
+.contenedor__principal-background-color {
+  background-color: $back-color;
+}
+
+.productos {
+  background-color: rgb(255, 218, 148);
+  margin: 0 auto;
+  width: 90%;
+  max-width: 100%;
+  text-align: center;
+
+  .titulo-productos {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #400000;
+    margin-bottom: 3rem;
+    padding: 20px 0;
+  }
+}
+.contenedor-pizzas {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 218, 148);
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 10px;
+
+  .pizza {
+    background-color: white;
+    gap: 5px;
+    border-radius: 9px;
+
+    .nombre-pizza {
+      font-size: 2rem;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+
+    .imagen-pizza {
+      width: 250px;
+      max-width: 100%;
+    }
+  }
+}

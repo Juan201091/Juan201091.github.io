@@ -1,0 +1,78 @@
+/* Variables para Titulo Principal Inicio*/
+
+$color-title: rgb(255, 218, 148);
+$font-title: "Roboto", sans-serif;
+$size-title: 6rem;
+$weight-title: 500;
+
+/* Pagina Principal */
+
+.contenedor-principal {
+  background-color: #330000;
+}
+
+.seccion-principal {
+  .Movimiento-1 {
+    position: absolute;
+    top: -40%;
+    right: 6%;
+    z-index: -1;
+  }
+
+  .contenido-principal {
+    background-image: url(/fotos/hornobarro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 75%;
+    height: 40rem;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    .titulo-principal {
+      color: black;
+      font-family: $font-title;
+      font-size: 6rem;
+      font-weight: $weight-title;
+      margin-top: 15px;
+      z-index: 1;
+      text-shadow: 1px 1px 1px white;
+    }
+    .boton-principal {
+      font-size: 2rem;
+      padding: 5px 8px;
+      border-radius: 10px;
+      margin-top: 30px;
+      background-color: rgb(255, 218, 148);
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      margin-bottom: 2rem;
+      transition: all 1.2s;
+      &:hover {
+        background: linear-gradient(
+          to bottom,
+          rgba(195, 195, 195, 0.931),
+          rgba(192, 192, 192, 0.972)
+        );
+      }
+    }
+  }
+
+  .cta-contacto {
+    font-size: 2rem;
+    padding: 5px 8px;
+    border-radius: 9px;
+    margin-top: 30px;
+  }
+  .navbar-links li a {
+    transition: 0.5s;
+  }
+  .navbar-links li a:hover {
+    color: rgba(192, 192, 192, 0.972);
+  }
+}
