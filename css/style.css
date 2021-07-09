@@ -428,14 +428,7 @@ header {
   background-color: #330000;
 }
 
-.seccion-principal .Movimiento-1 {
-  position: absolute;
-  top: -40%;
-  right: 6%;
-  z-index: -1;
-}
-
-.seccion-principal .contenido-principal {
+.contenido-principal {
   background-image: url("../fotos/fondoinicio.jpg");
   background-size: cover;
   background-position: center;
@@ -461,17 +454,17 @@ header {
   overflow: hidden;
 }
 
-.seccion-principal .contenido-principal .titulo-principal {
-  color: black;
+.contenido-principal .titulo-principal {
+  color: #ffda94;
   font-family: "Roboto", sans-serif;
   font-size: 6rem;
   font-weight: 500;
   margin-top: 15px;
   z-index: 1;
-  text-shadow: 1px 1px 1px white;
+  text-shadow: 1px 1px 1px black;
 }
 
-.seccion-principal .contenido-principal .boton-principal {
+.contenido-principal .boton-principal {
   font-size: 2rem;
   padding: 5px 8px;
   border-radius: 10px;
@@ -484,24 +477,24 @@ header {
   transition: all 1.2s;
 }
 
-.seccion-principal .contenido-principal .boton-principal:hover {
+.contenido-principal .boton-principal:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(195, 195, 195, 0.931)), to(rgba(192, 192, 192, 0.972)));
   background: linear-gradient(to bottom, rgba(195, 195, 195, 0.931), rgba(192, 192, 192, 0.972));
 }
 
-.seccion-principal .cta-contacto {
+.cta-contacto {
   font-size: 2rem;
   padding: 5px 8px;
   border-radius: 9px;
   margin-top: 30px;
 }
 
-.seccion-principal .navbar-links li a {
+.navbar-links li a {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.seccion-principal .navbar-links li a:hover {
+.navbar-links li a:hover {
   color: rgba(192, 192, 192, 0.972);
 }
 
