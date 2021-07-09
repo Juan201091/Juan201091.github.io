@@ -140,6 +140,10 @@ header {
 /*responsive*/
 
 @media (max-width: 740px) {
+  html {
+    font-size: 50%;
+  }
+
   header {
     display: flex;
     flex-direction: column;

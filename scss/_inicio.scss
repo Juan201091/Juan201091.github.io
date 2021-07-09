@@ -20,12 +20,13 @@ $weight-title: 500;
   }
 
   .contenido-principal {
-    background-image: url("../fotos/hornobarro.jpg");
+    background-image: url("../fotos/fondoinicio.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: 75%;
-    height: 40rem;
+    height: 400px;
+    max-height: 100%;
+    opacity: 90%;
     width: 100%;
     max-width: 100%;
     display: flex;
