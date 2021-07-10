@@ -5,38 +5,44 @@ $backgournd-color: #c3c3c3;
 $alto: 200px;
 
 .seccion-nosotros {
+  background-image: url("../fotos/fondonosotros.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #958b8b;
+  background-blend-mode: soft-light;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgb(255, 218, 148);
   margin: 0 auto;
-  width: 90%;
   max-width: 100%;
 
   .titulo-nosotros {
+    text-align: center;
     font-size: 3rem;
     font-family: "Allura", cursive;
     font-weight: 600;
     margin-top: 5.5rem;
-    color: #400000;
+    color: rgb(255, 218, 148);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
   }
 
   .contenedor-descripcion-nosotros {
     max-width: 100%;
     width: $ancho * 3;
-    background-color: $backgournd-color;
+    background-color: transparent;
     font-size: 1.6rem;
     padding: 0 auto;
     color: #400000;
     margin: 10px auto;
 
     p {
+      text-align: center;
       font-size: 18px;
       font-weight: bold;
       padding: 10px 20px;
       color: #1f1d1d;
-      text-align: center;
       margin: 10px 50px;
     }
   }

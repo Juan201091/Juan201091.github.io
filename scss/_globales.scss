@@ -17,7 +17,7 @@ html {
 .container {
   width: 90%;
 }
-$back-color: #330000;
+$back-color: #151414;
 $titulos-footer: rgb(255, 218, 148);
 
 /*Estilos Header*/
@@ -76,7 +76,7 @@ header {
 .pie-pagina {
   width: 90%;
   margin: 0 auto;
-  background-color: #330000;
+  background-color: #151414;
 }
 
 .contenedor-uno {
@@ -99,6 +99,11 @@ header {
     color: #d2cfcfe1;
     font-size: 1.2rem;
     text-align: center;
+    a {
+      text-decoration: none;
+      color: #d2cfcfe1;
+      font-size: 1.2rem;
+    }
     .mail-informativo {
       text-align: center;
       .mail {
@@ -140,10 +145,6 @@ header {
 /*responsive*/
 
 @media (max-width: 740px) {
-  html {
-    font-size: 50%;
-  }
-
   header {
     display: flex;
     flex-direction: column;
