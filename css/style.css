@@ -59,18 +59,6 @@
   color: #ffda94;
 }
 
-.contenedor-promociones .contenido-promociones .boton--rojo {
-  background-color: #f30000;
-}
-
-.contenedor-promociones .contenido-promociones .boton--verde {
-  background-color: green;
-}
-
-.contenedor-promociones .contenido-promociones .boton--azul {
-  background-color: royalblue;
-}
-
 /*Reset CSS*/
 * {
   margin: 0;
@@ -610,6 +598,8 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #958b8b;
+  background-blend-mode: soft-light;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -622,21 +612,11 @@ header {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #ffda94;
   margin: 0 auto;
   max-width: 100%;
-  opacity: 40%;
 }
 
-.seccion-nosotros .prueba {
-  background-color: transparent;
-}
-
-.seccion-nosotros .prueba .prueba::before {
-  opacity: 100%;
-}
-
-.seccion-nosotros .prueba .titulo-nosotros {
+.seccion-nosotros .titulo-nosotros {
   text-align: center;
   font-size: 3rem;
   font-family: "Allura", cursive;
@@ -646,7 +626,7 @@ header {
   text-shadow: 1px 1px 1px black;
 }
 
-.seccion-nosotros .prueba .contenedor-descripcion-nosotros {
+.seccion-nosotros .contenedor-descripcion-nosotros {
   max-width: 100%;
   width: 900px;
   background-color: transparent;
@@ -656,12 +636,12 @@ header {
   margin: 10px auto;
 }
 
-.seccion-nosotros .prueba .contenedor-descripcion-nosotros p {
+.seccion-nosotros .contenedor-descripcion-nosotros p {
+  text-align: center;
   font-size: 18px;
   font-weight: bold;
   padding: 10px 20px;
   color: #1f1d1d;
-  text-align: center;
   margin: 10px 50px;
 }
 
