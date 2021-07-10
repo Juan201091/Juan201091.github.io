@@ -362,6 +362,10 @@ header {
   }
 }
 
+html {
+  font-size: 55%;
+}
+
 /*Variables*/
 .contenedor__principal-background-color {
   background-color: #330000;
