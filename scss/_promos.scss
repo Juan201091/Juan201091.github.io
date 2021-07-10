@@ -34,7 +34,7 @@
     }
 
     .titulo-promo {
-      padding: 5px 0;
+      padding: 15px 0;
       font-size: 3rem;
     }
 
@@ -43,12 +43,13 @@
     }
 
     .boton {
+      font-weight: 600;
       font-size: 2rem;
       padding: 5px 8px;
       border-radius: 9px;
       margin-top: 20px;
-      background-color: #330000;
-      color: rgb(255, 218, 148);
+      background-color: rgb(255, 218, 148);
+      color: #141414;
     }
   }
 }
