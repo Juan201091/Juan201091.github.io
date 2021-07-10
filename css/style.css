@@ -71,7 +71,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 55%;
 }
 
 /*Variables*/
@@ -360,10 +360,6 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-html {
-  font-size: 55%;
 }
 
 /*Variables*/
