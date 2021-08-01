@@ -8,7 +8,7 @@
   text-align: center;
 }
 .titulo-contacto {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
   color: #400000;
   padding: 30px 0;
@@ -25,7 +25,6 @@
   .formulario-contacto {
     background-color: #c3c3c3;
     margin-bottom: 2rem;
-    width: 70rem;
     max-width: 100%;
     border-radius: 10px;
   }
@@ -37,22 +36,14 @@
   }
   .btn-enviar {
     margin-bottom: 2rem;
-    transition: all 1.2s;
+    transition: all;
     border-radius: 10px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 5px 8px;
     margin-top: 30px;
     background-color: rgb(255, 218, 148);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-
-    &:hover {
-      background: linear-gradient(
-        to bottom,
-        rgba(185, 150, 150, 0.931),
-        rgba(246, 213, 213, 0.972)
-      );
-    }
   }
   .input-group {
     display: flex;
@@ -78,7 +69,7 @@
     label {
       margin-bottom: 10px;
       margin-top: 10px;
-      font-size: 18px;
+      font-size: 1.8rem;
       font-weight: bold;
       text-align: left;
     }

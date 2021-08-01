@@ -6,19 +6,14 @@
   list-style: none;
   text-decoration: none;
 }
-
-html {
-  font-size: 55%;
-}
-
 /*Variables*/
 
-/*Variables*/
-.container {
-  width: 90%;
-}
 $back-color: #151414;
 $titulos-footer: rgb(255, 218, 148);
+
+html {
+  font-size: 0.6rem;
+}
 
 /*Estilos Header*/
 
@@ -34,7 +29,7 @@ header {
 /*Estilos NavBar*/
 
 .contenedor-logo {
-  flex: 1 1 10rem;
+  flex: 1 1;
 
   .imagen-logo {
     width: 14rem;
@@ -63,7 +58,7 @@ header {
 .contenedor-carrito-compras {
   display: flex;
   justify-content: flex-end;
-  flex: 0 1 1rem;
+  flex: 0 1;
 
   .carrito-compras {
     width: 4rem;
@@ -144,7 +139,11 @@ header {
 
 /*responsive*/
 
-@media (max-width: 740px) {
+@media (max-width: 600px) {
+  html {
+    font-size: 0.4rem;
+  }
+
   header {
     display: flex;
     flex-direction: column;
@@ -171,13 +170,10 @@ header {
     text-align: center;
     .titulo-principal {
       text-align: center;
-      color: red;
-      font-size: 2rem;
-      margin-top: 30px;
     }
     .boton-principal {
       text-align: center;
-      font-size: 2rem;
+      font-size: 0.5rem;
       padding: 5px 8px;
       border-radius: 10px;
       margin-top: 30px;
@@ -229,5 +225,39 @@ header {
   .contenedor-pizzas {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 810px) {
+  html {
+    font-size: 0.4rem;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+  }
+
+  .navbar-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contenedor-carrito-compras {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .pie-pagina {
+    align-items: center;
+    max-height: 100%;
+    margin: 0 auto;
+    .contenedor-uno {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
   }
 }

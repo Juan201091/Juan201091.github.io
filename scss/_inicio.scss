@@ -1,9 +1,6 @@
 /* Variables para Titulo Principal Inicio*/
 
-$color-title: rgb(255, 218, 148);
 $font-title: "Roboto", sans-serif;
-$size-title: 6rem;
-$weight-title: 500;
 
 /* Pagina Principal */
 
@@ -23,6 +20,7 @@ $weight-title: 500;
   max-width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
@@ -31,8 +29,7 @@ $weight-title: 500;
     color: rgb(255, 218, 148);
     font-family: $font-title;
     font-size: 6rem;
-    font-weight: $weight-title;
-    margin-top: 15px;
+    font-weight: 500;
     z-index: 1;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
   }
@@ -45,7 +42,7 @@ $weight-title: 500;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     margin-bottom: 2rem;
-    transition: all 1.2s;
+    transition: all;
     &:hover {
       background: linear-gradient(
         to bottom,
@@ -56,12 +53,6 @@ $weight-title: 500;
   }
 }
 
-.cta-contacto {
-  font-size: 2rem;
-  padding: 5px 8px;
-  border-radius: 9px;
-  margin-top: 30px;
-}
 .navbar-links li a {
   transition: 0.5s;
 }
