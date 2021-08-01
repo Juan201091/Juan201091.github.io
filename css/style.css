@@ -429,7 +429,7 @@ header {
   font-size: 3rem;
   font-weight: 600;
   color: #400000;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   padding: 20px 0;
 }
 
@@ -7383,7 +7383,7 @@ fieldset:disabled .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 45%;
+  width: 40%;
   padding: 0;
   color: black;
   text-align: center;
@@ -7458,9 +7458,9 @@ fieldset:disabled .btn {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0;
-  margin-right: 45%;
+  margin-right: 40%;
   margin-bottom: 1rem;
-  margin-left: 45%;
+  margin-left: 40%;
   list-style: none;
 }
 
