@@ -74,9 +74,10 @@
             src="../fotos/muzzarella2.jpg"
             alt="Pizza de Muzarella"
           />
-          <h4 class="titulo-promo">Muzzarella</h4>
-          <p class="precio-promo">$500</p>
-          <button class="boton boton--rojo">Agregar</button>
+          <h4 id="titulo-promo-1" class="titulo-promo">Muzzarella</h4>
+          <p id="precio-promo-1" class="precio-promo">500</p>
+          <button id="boton1" class="boton">Agregar</button><br />
+          <p id="productoAgregadoPromo1"></p>
         </div>
         <div class="contenido-promociones">
           <!--Bloque-->
@@ -85,9 +86,10 @@
             src="../fotos/napolitana.jpg"
             alt="Pizza Napolitana"
           />
-          <h4 class="titulo-promo">Napolitana</h4>
-          <p class="precio-promo">$600</p>
-          <button class="boton boton--verde">Agregar</button>
+          <h4 id="titulo-promo-2" class="titulo-promo">Napolitana</h4>
+          <p id="precio-promo-2" class="precio-promo">600</p>
+          <button id="boton2" class="boton">Agregar</button><br />
+          <p id="productoAgregadoPromo2"></p>
         </div>
         <div class="contenido-promociones">
           <!--Bloque-->
@@ -96,9 +98,10 @@
             src="../fotos/fugazzeta.jpg"
             alt="Pizza de Fugazzeta"
           />
-          <h4 class="titulo-promo">Fugazzeta</h4>
-          <p class="precio-promo">$700</p>
-          <button class="boton boton--azul">Agregar</button>
+          <h4 id="titulo-promo-3" class="titulo-promo">Fugazzeta</h4>
+          <p id="precio-promo-3" class="precio-promo">700</p>
+          <button id="boton3" class="boton">Agregar</button><br />
+          <p id="productoAgregadoPromo3"></p>
         </div>
       </div>
     </section>
@@ -151,10 +154,18 @@
             <h3 class="titulo">Redes</h3>
             <div class="imagenes-redes">
               <a href="#">
-                <img class="icono" src="../fotos/Icons-11_FACE.svg" alt=""
+                <img
+                  class="icono"
+                  id="facebook"
+                  src="../fotos/Icons-11_FACE.svg"
+                  alt=""
               /></a>
               <a href="#">
-                <img class="icono" src="../fotos/Icons-10_IG.svg" alt=""
+                <img
+                  class="icono"
+                  id="instagram"
+                  src="../fotos/Icons-10_IG.svg"
+                  alt=""
               /></a>
             </div>
           </div>
@@ -174,5 +185,7 @@
       </div>
     </footer>
     <script src="/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/javascript/dom.js"></script>
+    <script src="/javascript/objetos.js"></script>
   </body>
 </html>
