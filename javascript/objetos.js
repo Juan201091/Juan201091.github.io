@@ -55,9 +55,10 @@ $("#boton3").on("click", () => {
   btnAgregrPromo3.innerHTML = `Producto agregado con exito`;
   btnAgregrPromo3.style.color = "green";
   btnAgregrPromo3.style.fontSize = "1.8rem";
-  setTimeout(() => {
+  /*setTimeout(() => {
     btnAgregrPromo3.innerHTML = "";
-  }, 2000);
+  }, 2000);*/
+  $("#productoAgregadoPromo3").fadeOut(2000);
   localStorage.setItem("productos", JSON.stringify(carrito));
 });
 
@@ -67,97 +68,15 @@ $("#facebook").on("click", () => {
 $("#instagram").on("click", () => {
   console.log("Entradas en instagram ");
 });
+$("#titulo1").css("display", "none").slideUp(2000).delay(2000).slideDown(2000);
+$("#titulo2").css("display", "none").slideUp(2000).delay(2000).slideDown(2000);
+$(".contenido-principal").css("display", "none");
+$(".contenido-principal").fadeIn(1500);
 
-console.log($("#titulo-promo-1"));
-console.log($("div"));
-/*let stars = document.getElementById("stars");
-let moon = document.getElementById("moon");
-let mountains_behind = document.getElementById("mountains_behind");
-let text = document.getElementById("text");
-let btn = document.getElementById("btn");
-let mountains_front = document.getElementById("mountains_front");
-
-window.addEventListener("scroll", function() {
-    let value = window.scrollY;
-    stars.style.left = value * 0.25 + "px";
-    moon.style.top = value * 1.05 + "px";
-    mountains_behind.style.top = value * 0.05 + "px";
-    mountains_front.style.top = value * 0 + "px";
-    text.style.marginRight = value * 4 + "px";
-    text.style.marginTop = value * 1.5 + "px";
-})
-eso en JS
-
-
-class Producto {
-  constructor(producto, precio) {
-    this.producto = producto;
-    this.precio = precio;
-  }
-}
-
-let carrito = [];
-
-const calcularPrecioTotal = (productosEnElCarrito) => {
-  let total = 0;
-  for (let producto of productosEnElCarrito) {
-    total = total + parseInt(producto.precio);
-  }
-  return total;
+$("#facebook").onmouseover = () => {
+  $("#facebook").addClass("animate__animated animate__tada");
+  console.log("hola que tal");
 };
 
-$("#boton1").on("click", () => {
-  let nuevaPizza = new Producto(
-    tituloPromo1.textContent,
-    precioPromo1.textContent
-  );
-  carrito.push(nuevaPizza);
-  btnAgregrPromo1.innerHTML = `Producto agregado con exito`;
-  btnAgregrPromo1.style.color = "green";
-  btnAgregrPromo1.style.fontSize = "1.8rem";
-
-  setTimeout(() => {
-    btnAgregrPromo1.innerHTML = "";
-  }, 2000);
-  localStorage.setItem("productos", JSON.stringify(carrito));
-});
-
-botonPromo2.onclick = () => {
-  let nuevaPizza = new Producto(
-    tituloPromo2.textContent,
-    precioPromo2.textContent
-  );
-  carrito.push(nuevaPizza);
-  btnAgregrPromo2.innerHTML = `Producto agregado con exito`;
-  btnAgregrPromo2.style.color = "green";
-  btnAgregrPromo2.style.fontSize = "1.8rem";
-  setTimeout(() => {
-    btnAgregrPromo2.innerHTML = "";
-  }, 2000);
-  localStorage.setItem("productos", JSON.stringify(carrito));
-};
-
-botonPromo3.onclick = () => {
-  let nuevaPizza = new Producto(
-    tituloPromo3.textContent,
-    precioPromo3.textContent
-  );
-  carrito.push(nuevaPizza);
-  btnAgregrPromo3.innerHTML = `Producto agregado con exito`;
-  btnAgregrPromo3.style.color = "green";
-  btnAgregrPromo3.style.fontSize = "1.8rem";
-  setTimeout(() => {
-    btnAgregrPromo3.innerHTML = "";
-  }, 2000);
-  localStorage.setItem("productos", JSON.stringify(carrito));
-};
-
-facebook.onclick = () => {
-  console.log("Entradas en facebook ");
-};
-instagram.onclick = () => {
-  console.log("Entradas en instagram ");
-};
-
-console.log($("#titulo-promo-1"));
-console.log($("div"));*/
+$("#facebook").addClass("animate__animated animate__tada");
+$("#instagram").addClass("animate__animated animate__tada");
