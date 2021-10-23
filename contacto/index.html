@@ -24,6 +24,7 @@
     />
     <!--Estilos-->
     <link rel="stylesheet" href="../css/style.css" />
+    <script src="/javascript/jquery.3.6.0.min.js"></script>
   </head>
 
   <body
@@ -72,23 +73,18 @@
       <h1 class="titulo-contacto">Contacto</h1>
       <div class="contenido-contacto">
         <div class="formulario-contacto">
-          <form action="" method="POST">
+          <form id="formulario" action="" method="POST">
             <div class="input-group">
               <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" name="nombre" required />
+              <input type="text" id="nombre" placeholder="Nombre" />
             </div>
             <div class="input-group">
               <label for="apellido">Apellido</label>
-              <input type="text" id="apellido" name="apellido" required />
+              <input type="text" id="apellido" placeholder="Apellido" />
             </div>
             <div class="input-group">
-              <label for="nombre">Mensaje</label>
-              <textarea
-                name="mensaje"
-                id="mensaje"
-                cols="20"
-                rows="5"
-              ></textarea>
+              <label for="mensaje">Mensaje</label>
+              <input type="text" id="mensaje" placeholder="Reseña" />
             </div>
             <button
               id="submit"
@@ -98,12 +94,14 @@
             >
               Enviar
             </button>
+            <p id="exito"></p>
           </form>
-          <p id="registro"></p>
         </div>
 
         <div class="contenedor-mapa">
-          <h1 class="titulo-contacto">Acercate a nuestra sucursal</h1>
+          <h1 id="coments" class="titulo-contacto">
+            Acercate a nuestra sucursal
+          </h1>
           <iframe
             class="mapa"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.077663501791!2d-58.491073784771125!3d-34.57690138046636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb65ce1777db3%3A0xed4e6fe679432368!2sBlanco%20Encalada%205283%2C%20C1431%20CDQ%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1624825533686!5m2!1ses-419!2sar"
@@ -187,6 +185,6 @@
         </div>
       </div>
     </footer>
-    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/javascript/ajax.js"></script>
   </body>
 </html>

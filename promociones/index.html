@@ -31,7 +31,10 @@
     />
   </head>
 
-  <body class="contenedor-principal contenedor__principal--background-color">
+  <body
+    id="soyBody"
+    class="contenedor-principal contenedor__principal--background-color"
+  >
     <header>
       <div class="contenedor-logo">
         <!--Bloque-->
@@ -59,20 +62,23 @@
           </li>
         </ul>
       </nav>
-      <div class="contenedor-carrito-compras">
+      <div id="contenedorCarrito" class="contenedor-carrito-compras">
         <!--Bloque-->
-        <img
-          class="carrito-compras"
-          src="../fotos/carrito.svg"
-          alt="carrito de compras"
-        />
+        <a href="#"
+          ><img
+            id="carrito"
+            class="carrito-compras"
+            src="../fotos/carrito.svg"
+            alt="carrito de compras"
+        /></a>
+        <span id="notificacion"></span>
       </div>
     </header>
     <section class="contenido-principal-promociones">
       <h1 class="titulo-promociones">Promociones</h1>
       <div class="contenedor-promociones">
         <!--Bloque-->
-        <div class="contenido-promociones">
+        <div id="pizzita" class="contenido-promociones">
           <!--Bloque-->
           <img
             class="pizza-promo"

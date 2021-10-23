@@ -16,3 +16,4 @@ const registrarse = document.getElementById("registro");
 const btnEnviar = document.getElementById("submit");
 const facebook = document.getElementById("facebook");
 const instagram = document.getElementById("instagram");
+const exito = document.getElementById("exito");
