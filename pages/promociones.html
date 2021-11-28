@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metas-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descripcion"
+      content=" Pizzeria Juan. La mejor pizza a leña del pais.  Desde 1991 nos dedicamos a crear la mejor pizza"
+    />
+    <meta
+      name="keywords"
+      content="Pizzeria, Pizza, Juan, mejor, leña, promociones, productos, nosotros, contacto"
+    />
+    <meta name="robots" content="index,follow" />
+    <title>Pizzeria Juan</title>
+
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2? family = Roboto & display = swap"
+      rel="hoja de estilo "
+    />
+    <!--Estilos-->
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="/javascript/jquery.3.6.0.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body
+    id="soyBody"
+    class="contenedor-principal contenedor__principal--background-color"
+  >
+    <header>
+      <div class="contenedor-logo">
+        <!--Bloque-->
+        <a href="../index.html"
+          ><img class="imagen-logo" src="../fotos/logonuevo.png" alt="Logotipo"
+        /></a>
+      </div>
+      <nav class="navbar">
+        <ul class="navbar-links">
+          <li class="navbar-items">
+            <a href="/pages/inicio.html">Inicio</a>
+          </li>
+          <li class="navbar-items">
+            <a href="/pages/promociones.html">Promociones</a>
+          </li>
+          <li class="navbar-items">
+            <a href="/pages/productos.html">Productos</a>
+          </li>
+          <li class="navbar-items">
+            <a href="/pages/nosotros.html">Nosotros</a>
+          </li>
+          <li class="navbar-items">
+            <a href="/pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="contenedorCarrito" class="contenedor-carrito-compras">
+        <!--Bloque-->
+        <a href="#"
+          ><img
+            id="carrito"
+            class="carrito-compras"
+            src="../fotos/carrito.svg"
+            alt="carrito de compras"
+        /></a>
+        <span id="notificacion"></span>
+      </div>
+    </header>
+    <section class="contenido-principal-promociones">
+      <h1 class="titulo-promociones">Promociones</h1>
+      <div class="contenedor-promociones">
+        <!--Bloque-->
+        <div id="pizzita" class="contenido-promociones">
+          <!--Bloque-->
+          <img
+            class="pizza-promo"
+            src="../fotos/muzzarella2.jpg"
+            alt="Pizza de Muzarella"
+          />
+          <h4 id="titulo-promo-1" class="titulo-promo">Muzzarella</h4>
+          <p id="precio-promo-1" class="precio-promo">500</p>
+          <button id="boton1" class="boton">Agregar</button><br />
+          <p id="productoAgregadoPromo1"></p>
+        </div>
+        <div class="contenido-promociones">
+          <!--Bloque-->
+          <img
+            id="foto"
+            class="pizza-promo"
+            src="../fotos/napolitana.jpg"
+            alt="Pizza Napolitana"
+          />
+          <h4 id="titulo-promo-2" class="titulo-promo">Napolitana</h4>
+          <p id="precio-promo-2" class="precio-promo">600</p>
+          <button id="boton2" class="boton">Agregar</button><br />
+          <p id="productoAgregadoPromo2"></p>
+        </div>
+        <div class="contenido-promociones">
+          <!--Bloque-->
+          <img
+            class="pizza-promo"
+            src="../fotos/fugazzeta.jpg"
+            alt="Pizza de Fugazzeta"
+          />
+          <h4 id="titulo-promo-3" class="titulo-promo">Fugazzeta</h4>
+          <p id="precio-promo-3" class="precio-promo">700</p>
+          <button id="boton3" class="boton">Agregar</button><br />
+          <p id="productoAgregadoPromo3"></p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pie-pagina">
+      <div class="contenedor-pie-pagina">
+        <!--Bloque-->
+        <div class="contenedor-uno">
+          <div class="contenido contacto-1">
+            <h3 class="titulo">Email</h3>
+            <div class="informacion">
+              <p class="mail-informativo">
+                <a class="mail" href="mailto:administracion@pizzeriajuan.com"
+                  >administracion@pizzeriajuan.com</a
+                ><br />
+                <a class="mail" href="mailto:ventas@pizzeriajuan.com"
+                  >ventas@pizzeriajuan.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="contenido contacto-2">
+            <!--Bloque-->
+            <h3 class="titulo">Teléfono</h3>
+            <div class="informacion">
+              <p class="telefonos">
+                4209-7124 / 4209-3265<br />
+                <a href="https://wa.me/541151489576">
+                  <img
+                    src="../fotos/Icons-12_WA.png"
+                    alt="whtsap icon"
+                    width="17rem"
+                  />
+                </a>
+                <a href="https://wa.me/541151489576"> (+54) 11 0303-4506</a>
+              </p>
+            </div>
+          </div>
+          <div class="contenido contacto-3">
+            <!--Bloque-->
+            <h3 class="titulo">Dirección</h3>
+            <div class="informacion">
+              <p class="direccion">
+                Blanco Encalada nro 5283<br />
+                CABA CP 1034
+              </p>
+            </div>
+          </div>
+          <div class="contenido contacto-4">
+            <h3 class="titulo">Redes</h3>
+            <div class="imagenes-redes">
+              <a href="#">
+                <img
+                  class="icono"
+                  id="facebook"
+                  src="../fotos/Icons-11_FACE.svg"
+                  alt=""
+              /></a>
+              <a href="#">
+                <img
+                  class="icono"
+                  id="instagram"
+                  src="../fotos/Icons-10_IG.svg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contenedor-dos">
+          <div class="contenedor-derechos">
+            <!--Bloque-->
+            <p class="informacion">
+              <span class="detalle"> © 2021</span> Pizzeria Juan. Todos los
+              derechos reservados. <br />
+              Diseñado y desarrollado por
+              <a class="creador" href="#">Juan Pablo Salerno</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/javascript/dom.js"></script>
+    <script src="/javascript/objetos.js"></script>
+  </body>
+</html>
